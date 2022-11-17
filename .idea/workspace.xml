@@ -4,67 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec4e407-f4a2-4305-9843-6f60ad994447" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.10.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.11.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Common/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Common/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Common/JsonReader/SearchJsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Common/JsonReader/StatJsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Common/JsonWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Criterias/BadCustomersCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Criterias/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Criterias/LastNameCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Criterias/MinMaxExpensesCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Criterias/ProductNameCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/First/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/First/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Second/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Second/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/ErrorOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Purchase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Search/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Search/SearchOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/CustomerStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/PurchaseStat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/StatOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Operations/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Operations/SearchOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Operations/StatOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/criterias.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/operations.properties" afterDir="false" />
+    <list default="true" id="dec4e407-f4a2-4305-9843-6f60ad994447" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Common/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Common/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Common/JsonReader/StatJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Common/JsonReader/StatJsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Stat/StatOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/StatOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations/Operation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,8 +91,16 @@
       <workItem from="1668619376464" duration="444000" />
       <workItem from="1668619837831" duration="9497000" />
       <workItem from="1668686506680" duration="19965000" />
-      <workItem from="1668712889532" duration="11023000" />
+      <workItem from="1668712889532" duration="11449000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1668727039072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668727039072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,5 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

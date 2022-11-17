@@ -22,11 +22,6 @@ public class Product {
     @Column(name = "price")
     private int price;
 
-    public Product(String name, int price) {
-        this.name = name;
-        this.price = price;
-    }
-
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Purchase> purchases;
 

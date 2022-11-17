@@ -22,9 +22,4 @@ public class StatOutput {
     private int avgExpenses;
 
     private String message;
-
-    public StatOutput(int totalDays, List<CustomerStat> customers) {
-        this.totalDays = totalDays;
-        this.customers = customers;
-    }
 }

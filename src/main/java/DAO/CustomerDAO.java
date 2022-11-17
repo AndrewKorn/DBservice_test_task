@@ -2,8 +2,6 @@ package DAO;
 
 import Models.Customer;
 import Models.Product;
-
-import javax.xml.crypto.Data;
 import java.sql.Date;
 import java.util.List;
 

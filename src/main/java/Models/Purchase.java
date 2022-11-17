@@ -1,6 +1,5 @@
 package Models;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -28,12 +27,6 @@ public class Purchase {
 
     @Column(name = "date")
     private java.sql.Date date;
-
-    public Purchase(Customer customer, Product product, java.sql.Date date) {
-        this.customer = customer;
-        this.product = product;
-        this.date = date;
-    }
 
     @Override
     public String toString() {
