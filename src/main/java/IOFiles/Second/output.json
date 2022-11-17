@@ -1,0 +1,1 @@
+{"type":"stat","totalDays":6,"customers":[{"name":"Andrew Korn","purchases":[{"name":"Milk","expenses":80},{"name":"Bread","expenses":50}],"totalExpenses":130},{"name":"Nastya Korn","purchases":[{"name":"Water","expenses":60}],"totalExpenses":60}],"totalExpenses":190,"avgExpenses":95}
