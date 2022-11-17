@@ -1,4 +1,4 @@
-package Common.JsonReader;
+package JsonReader;
 
 import Common.Config;
 import Criterias.Criteria;
@@ -40,8 +40,17 @@ public class SearchJsonReader {
                     searchOutput.setMessage("input file is empty");
                     return searchOutput;
                 }
+
                 JsonObject jsonObject = (JsonObject) com.google.gson.JsonParser.parseString(jsonTxt);
+                if (!jsonObject.has("criterias")) {
+                    searchOutput.setMessage("incorrect input");
+                    return searchOutput;
+                }
                 JsonArray jsonArray = jsonObject.getAsJsonArray("criterias");
+                if (jsonArray.isEmpty()) {
+                    searchOutput.setMessage("criterias are empty");
+                    return searchOutput;
+                }
 
                 for (Object o : jsonArray) {
                     JsonObject jsonsObject = (JsonObject) o;

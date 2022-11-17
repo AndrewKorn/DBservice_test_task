@@ -1,6 +1,6 @@
 package Operations;
 
-import Common.JsonReader.StatJsonReader;
+import JsonReader.StatJsonReader;
 import Common.JsonWriter;
 import Models.ErrorOutput;
 import Models.Stat.StatOutput;

@@ -1,6 +1,6 @@
 package Operations;
 
-import Common.JsonReader.SearchJsonReader;
+import JsonReader.SearchJsonReader;
 import Common.JsonWriter;
 import Models.ErrorOutput;
 import Models.Search.SearchOutput;
