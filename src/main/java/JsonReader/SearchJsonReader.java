@@ -46,6 +46,7 @@ public class SearchJsonReader {
                     searchOutput.setMessage("incorrect input");
                     return searchOutput;
                 }
+
                 JsonArray jsonArray = jsonObject.getAsJsonArray("criterias");
                 if (jsonArray.isEmpty()) {
                     searchOutput.setMessage("criterias are empty");

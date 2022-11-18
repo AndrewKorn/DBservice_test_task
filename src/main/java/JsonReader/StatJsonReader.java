@@ -39,18 +39,20 @@ public class StatJsonReader {
                     statOutput.setMessage("input file is empty");
                     return statOutput;
                 }
-                JsonObject jsonObject = (JsonObject) JsonParser.parseString(jsonTxt);
 
+                JsonObject jsonObject = (JsonObject) JsonParser.parseString(jsonTxt);
                 if (!jsonObject.has("startDate") || !jsonObject.has("endDate")) {
                     statOutput.setMessage("incorrect input file");
                     return statOutput;
                 }
+
                 Date startDate = Date.valueOf(jsonObject.get("startDate").getAsString());
                 Date endDate = Date.valueOf(jsonObject.get("endDate").getAsString());
                 if (startDate.after(endDate)) {
                     statOutput.setMessage("invalid data");
                     return statOutput;
                 }
+
                 int totalDays = (int) (endDate.toLocalDate().toEpochDay() - startDate.toLocalDate().toEpochDay());
                 List<CustomerStat> customers = new ArrayList<>();
                 statOutput.setTotalDays(totalDays);

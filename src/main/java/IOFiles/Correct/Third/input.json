@@ -1,0 +1,11 @@
+{
+  "criterias": [
+    {"lastName": "Pupkin"},
+    {"productName": "Beer", "minTimes": 2},
+    {"minExpenses": 112, "maxExpenses": 4000},
+    {"lastName": "West"},
+    {"badCustomers": 1},
+    {"badCustomers": 3},
+    {"minExpenses": 150, "maxExpenses": 200}
+  ]
+}

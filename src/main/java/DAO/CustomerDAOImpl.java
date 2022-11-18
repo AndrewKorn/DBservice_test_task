@@ -33,7 +33,7 @@ public class CustomerDAOImpl implements CustomerDAO {
                 "INNER JOIN product ON purchase.product_id = product.id " +
                 "WHERE product.name =:productName " +
                 "GROUP BY customer.id, customer.first_name, customer.last_name " +
-                "HAVING COUNT(product.name) > :minTimes").addEntity(Customer.class);
+                "HAVING COUNT(product.name) >= :minTimes").addEntity(Customer.class);
         query.setParameter("productName", productName);
         query.setParameter("minTimes", minTimes);
         List<Customer> customers = query.getResultList();

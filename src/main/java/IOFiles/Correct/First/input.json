@@ -1,7 +1,7 @@
 {
   "criterias": [
     {"lastName": "Korn"},
-    {"productName": "asd", "minTimes": 5},
+    {"productName": "Milk", "minTimes": 5},
     {"minExpenses": 112, "maxExpenses": 4000},
     {"badCustomers": 3}
   ]
