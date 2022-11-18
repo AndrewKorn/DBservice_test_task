@@ -1,8 +1,8 @@
 package DAO;
 
-import Models.Customer;
+import Models.TablesEntities.Customer;
 import Common.HibernateUtil;
-import Models.Product;
+import Models.TablesEntities.Product;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 import java.sql.Date;

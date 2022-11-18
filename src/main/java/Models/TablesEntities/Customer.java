@@ -1,4 +1,4 @@
-package Models;
+package Models.TablesEntities;
 
 import com.google.gson.annotations.Expose;
 import lombok.Getter;

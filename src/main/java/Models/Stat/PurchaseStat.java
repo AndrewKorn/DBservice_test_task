@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class PurchaseStat {
+public class PurchaseStat implements Comparable<PurchaseStat> {
     @Expose
     private String name;
     @Expose
@@ -17,5 +17,10 @@ public class PurchaseStat {
     public PurchaseStat(String name, int expenses) {
         this.name = name;
         this.expenses = expenses;
+    }
+
+    @Override
+    public int compareTo(PurchaseStat purchaseStat) {
+        return Integer.compare(purchaseStat.expenses, expenses);
     }
 }

@@ -1,7 +1,7 @@
 package Criterias;
 
 import DAO.CustomerDAO;
-import Models.Customer;
+import Models.TablesEntities.Customer;
 import Models.Search.Result;
 import com.google.gson.JsonObject;
 import java.util.List;

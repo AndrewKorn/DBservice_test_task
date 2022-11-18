@@ -9,7 +9,7 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CustomerStat {
+public class CustomerStat implements Comparable<CustomerStat> {
     @Expose
     private String name;
     @Expose
@@ -21,5 +21,8 @@ public class CustomerStat {
         this.name = name;
         this.purchases = purchases;
     }
-
+    @Override
+    public int compareTo(CustomerStat customerStat) {
+        return Integer.compare(customerStat.totalExpenses, totalExpenses);
+    }
 }

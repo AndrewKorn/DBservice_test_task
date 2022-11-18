@@ -1,4 +1,4 @@
-package Models;
+package Models.TablesEntities;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

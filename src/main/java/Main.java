@@ -1,6 +1,5 @@
 import Operations.Operation;
 import Common.Config;
-
 import java.util.Map;
 
 public class Main {

@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dec4e407-f4a2-4305-9843-6f60ad994447" name="Changes" comment="some fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Second/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Second/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Third/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Third/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Incorrect/First/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Incorrect/First/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/CustomerDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOFiles/First/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/First/input.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOFiles/First/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/First/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOFiles/Second/input.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOFiles/Second/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonReader/SearchJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonReader/SearchJsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Second/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOFiles/Correct/Second/output.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JsonReader/StatJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonReader/StatJsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Stat/CustomerStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/CustomerStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Stat/PurchaseStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Stat/PurchaseStat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DBservice" />
-      <option name="PROGRAM_PARAMETERS" value="stat src/main/java/IOFiles/Incorrect/Third/input.json src/main/java/IOFiles/Incorrect/Third/output.json" />
+      <option name="PROGRAM_PARAMETERS" value="stat src/main/java/IOFiles/Correct/Second/input.json src/main/java/IOFiles/Correct/Second/output.json" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +89,7 @@
       <workItem from="1668619376464" duration="444000" />
       <workItem from="1668619837831" duration="9497000" />
       <workItem from="1668686506680" duration="19965000" />
-      <workItem from="1668712889532" duration="14169000" />
+      <workItem from="1668712889532" duration="16475000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1668727039072</created>
@@ -128,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668729148969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new tests file">
+      <created>1668730327342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668730327342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="some fixes">
+      <created>1668730381228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668730381228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +154,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init commit" />
     <MESSAGE value="add db.sql" />
+    <MESSAGE value="add new tests file" />
     <MESSAGE value="some fixes" />
     <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
   </component>

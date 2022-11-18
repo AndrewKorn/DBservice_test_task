@@ -1,6 +1,6 @@
 package Models.Search;
 
-import Models.Customer;
+import Models.TablesEntities.Customer;
 import com.google.gson.JsonObject;
 import com.google.gson.annotations.Expose;
 

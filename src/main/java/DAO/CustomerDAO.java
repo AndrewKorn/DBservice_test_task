@@ -1,7 +1,7 @@
 package DAO;
 
-import Models.Customer;
-import Models.Product;
+import Models.TablesEntities.Customer;
+import Models.TablesEntities.Product;
 import java.sql.Date;
 import java.util.List;
 

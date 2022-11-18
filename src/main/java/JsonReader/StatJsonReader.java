@@ -2,8 +2,8 @@ package JsonReader;
 
 import DAO.CustomerDAO;
 import DAO.CustomerDAOImpl;
-import Models.Customer;
-import Models.Product;
+import Models.TablesEntities.Customer;
+import Models.TablesEntities.Product;
 import Models.Stat.CustomerStat;
 import Models.Stat.PurchaseStat;
 import Models.Stat.StatOutput;
@@ -18,6 +18,7 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class StatJsonReader {
@@ -69,9 +70,11 @@ public class StatJsonReader {
                         int expenses = count * product.getPrice();
                         PurchaseStat purchaseStat = new PurchaseStat(product.getName(), expenses);
                         purchases.add(purchaseStat);
+                        Collections.sort(purchases);
                         customerStat.setTotalExpenses(customerStat.getTotalExpenses() + expenses);
                     }
                     customers.add(customerStat);
+                    Collections.sort(customers);
                     statOutput.setTotalExpenses(statOutput.getTotalExpenses() + customerStat.getTotalExpenses());
                 }
                 statOutput.setAvgExpenses(statOutput.getTotalExpenses() / statOutput.getCustomers().size());
