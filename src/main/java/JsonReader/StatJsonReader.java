@@ -50,7 +50,7 @@ public class StatJsonReader {
                 Date startDate = Date.valueOf(jsonObject.get("startDate").getAsString());
                 Date endDate = Date.valueOf(jsonObject.get("endDate").getAsString());
                 if (startDate.after(endDate)) {
-                    statOutput.setMessage("invalid data");
+                    statOutput.setMessage("invalid date");
                     return statOutput;
                 }
 

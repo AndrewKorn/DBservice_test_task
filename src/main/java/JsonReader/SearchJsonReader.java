@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.InvocationTargetException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +27,13 @@ public class SearchJsonReader {
     }
 
     public SearchOutput readJson() {
-        Map<String, Object> criteriasConfig = new Config("criterias.properties").getConfig();
+        Map<String, Object> criteriasConfig;
+        try {
+            criteriasConfig = new Config("criterias.properties").getConfig();
+        } catch (IOException | ClassNotFoundException | InvocationTargetException | NoSuchMethodException |
+                 InstantiationException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
         CustomerDAO dao = new CustomerDAOImpl();
         SearchOutput searchOutput = new SearchOutput();
 

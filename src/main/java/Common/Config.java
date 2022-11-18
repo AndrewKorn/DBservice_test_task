@@ -16,26 +16,15 @@ public class Config {
         this.config = new HashMap<>();
     }
 
-    public Map<String, Object> getConfig() {
+    public Map<String, Object> getConfig() throws IOException, ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         InputStream in = Config.class.getClassLoader().getResourceAsStream(configFile);
         Properties properties = new Properties();
-        try {
-            properties.load(in);
-        }
-        catch (IOException e) {
-            e.printStackTrace();
-        }
+        properties.load(in);
 
         for (String key : properties.stringPropertyNames()) {
-            try {
-                String className = properties.getProperty(key);
-                Object instance = Class.forName(className).getDeclaredConstructor().newInstance();
-                config.put(key, instance);
-            }
-            catch (ClassNotFoundException | InvocationTargetException | InstantiationException |
-                   IllegalAccessException | NoSuchMethodException e) {
-                e.printStackTrace();
-            }
+            String className = properties.getProperty(key);
+            Object instance = Class.forName(className).getDeclaredConstructor().newInstance();
+            config.put(key, instance);
         }
         return config;
     }

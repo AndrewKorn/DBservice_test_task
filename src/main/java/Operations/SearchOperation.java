@@ -1,28 +1,22 @@
 package Operations;
 
 import JsonReader.SearchJsonReader;
-import Common.JsonWriter;
 import Models.ErrorOutput;
 import Models.Search.SearchOutput;
-import com.google.gson.*;
 
-
-public class SearchOperation implements Operation {
+public class SearchOperation extends Operation {
     @Override
-    public void execute(String inputFile, String outputFile) {
+    public String doOperation(String inputFile) {
         SearchJsonReader searchJsonReader = new SearchJsonReader(inputFile);
         SearchOutput searchOutput = searchJsonReader.readJson();
 
-        Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
         String json;
         if (searchOutput.getMessage() == null) {
-            json = gson.toJson(searchOutput);
+            json = getGson().toJson(searchOutput);
         }
         else {
-            json = gson.toJson(new ErrorOutput(searchOutput.getMessage()));
+            json = getGson().toJson(new ErrorOutput(searchOutput.getMessage()));
         }
-
-        JsonWriter jsonWriter = new JsonWriter(outputFile);
-        jsonWriter.write(json);
+        return json;
     }
 }
