@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec4e407-f4a2-4305-9843-6f60ad994447" name="Changes" comment="some fixes">
+    <list default="true" id="dec4e407-f4a2-4305-9843-6f60ad994447" name="Changes" comment="rework Operations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Common/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOTestFiles/Incorrect/Third/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IOTestFiles/Incorrect/Third/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonReader/SearchJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonReader/SearchJsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JsonReader/StatJsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JsonReader/StatJsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operations/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operations/SearchOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations/SearchOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operations/StatOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations/StatOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
       <workItem from="1668686506680" duration="19965000" />
       <workItem from="1668712889532" duration="16475000" />
       <workItem from="1668773155483" duration="1944000" />
-      <workItem from="1668778616764" duration="1784000" />
+      <workItem from="1668778616764" duration="3841000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1668727039072</created>
@@ -146,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668773264155</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rework Operations">
+      <created>1668780485914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668780485914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +168,7 @@
     <MESSAGE value="add db.sql" />
     <MESSAGE value="add new tests file" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="rework Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework Operations" />
   </component>
 </project>

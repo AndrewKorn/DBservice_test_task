@@ -6,10 +6,10 @@ import com.google.gson.GsonBuilder;
 import lombok.Getter;
 
 @Getter
-public class Operation {
+public abstract class Operation {
     private final Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
 
-    public String doOperation(String inputFile) {return "";}
+    public abstract String doOperation(String inputFile);
 
     private void writeJson(String outputFile, String json) {
         JsonWriter jsonWriter = new JsonWriter(outputFile);
